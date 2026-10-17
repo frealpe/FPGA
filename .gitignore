@@ -1,0 +1,32 @@
+# Quartus: todo lo que se regenera al compilar
+db/
+incremental_db/
+output_files/
+simulation/
+greybox_tmp/
+*.qws
+*.rpt
+*.summary
+*.smsg
+*.done
+*.jdi
+*.pin
+*.sld
+c5_pin_model_dump.txt
+# Platform Designer: el HDL generado y su caché (se regeneran con Generate HDL)
+.qsys_edit/
+*/synthesis/
+*/simulation/
+# Nios II EDS / Eclipse
+.metadata/
+RemoteSystemsTempFiles/
+*_bsp/
+*.elf
+*.objdump
+*.map
+obj/
+# Varios
+*.zip
+*.rar
+*.bak
+*~
